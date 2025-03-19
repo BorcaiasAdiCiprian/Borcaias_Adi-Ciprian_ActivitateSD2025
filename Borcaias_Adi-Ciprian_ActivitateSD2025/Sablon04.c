@@ -137,6 +137,21 @@ float calculeazaPretulMasinilorUnuiSofer(/*lista masini*/ const char* numeSofer)
 	return 0;
 }
 
+int getNrUsiMasinaScumpa(N* lista) {
+	if (lista) {
+		int nrUsi = lista->info.nrUsi;
+		float pretMaxim = lista->info.pret;
+		lista = lista->next;
+		while (lista) {
+			if (lista->info.pret > pretMaxim) {
+				nrUsi = lista->info.nrUsi;
+				pretMaxim = lista->info.pret;
+			}
+		}
+	}
+}
+
+
 int main() {
 	N* nod;
 	nod = citireListaMasiniDinFisier("masini.txt");
