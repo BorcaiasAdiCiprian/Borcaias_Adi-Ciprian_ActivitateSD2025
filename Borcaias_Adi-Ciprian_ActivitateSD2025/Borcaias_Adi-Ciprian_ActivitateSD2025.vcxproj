@@ -19,8 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Borcaias_Adi-Ciprian_ActivitateSD2025.c" />
-    <ClCompile Include="Sem2.c" />
+    <ClCompile Include="Sablon04.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

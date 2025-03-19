@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Sem2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Borcaias_Adi-Ciprian_ActivitateSD2025.c">
+    <ClCompile Include="Sablon04.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
